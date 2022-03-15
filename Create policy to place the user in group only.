@@ -1,0 +1,53 @@
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListRoleTags",
+                "iam:ListServerCertificates",
+                "iam:ListPoliciesGrantingServiceAccess",
+                "iam:ListInstanceProfileTags",
+                "iam:ListServiceSpecificCredentials",
+                "iam:ListMFADevices",
+                "iam:ListSigningCertificates",
+                "iam:GetGroup",
+                "iam:ListVirtualMFADevices",
+                "iam:ListInstanceProfilesForRole",
+                "iam:ListSSHPublicKeys",
+                "iam:AddUserToGroup",
+                "iam:ListAttachedRolePolicies",
+                "iam:ListOpenIDConnectProviderTags",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListSAMLProviderTags",
+                "iam:ListAttachedGroupPolicies",
+                "iam:ListPolicyTags",
+                "iam:ListRolePolicies",
+                "iam:ListAccessKeys",
+                "iam:ListPolicies",
+                "iam:ListSAMLProviders",
+                "iam:GetPolicy",
+                "iam:ListGroupPolicies",
+                "iam:ListEntitiesForPolicy",
+                "iam:ListRoles",
+                "iam:ListUserPolicies",
+                "iam:ListInstanceProfiles",
+                "iam:ListPolicyVersions",
+                "iam:ListOpenIDConnectProviders",
+                "iam:GetUserPolicy",
+                "iam:ListGroupsForUser",
+                "iam:ListServerCertificateTags",
+                "iam:ListAccountAliases",
+                "iam:ListUsers",
+                "iam:ListGroups",
+                "iam:GetGroupPolicy",
+                "iam:ListMFADeviceTags",
+                "iam:GetLoginProfile",
+                "iam:ListUserTags",
+                "iam:GetAccountSummary"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
